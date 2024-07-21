@@ -1,20 +1,20 @@
 import { useState } from "react";
 import { CounterState } from "./CounterState";
 
-export function Counter() {
+export function Counter({ initialValue = 0 }) {
   // ritorna un array: 1 elemento->stateVariable
   //  2 elemento->funzione che aggiorna la variabile
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(initialValue);
 
   function handleCounterIncrement() {
-    //usa sempre le callback/arrow function
+    //usa sempre le callback/arrow function, così abbiamo la sicurezza di avere il valore più recente disponibile
     setCounter((c) => c + 1);
   }
   function handleCounterDecrement() {
     setCounter((c) => c - 1);
   }
   function handleCounterReset() {
-    setCounter((c) => (c = 0));
+    setCounter(initialValue);
   }
   return (
     <div>
