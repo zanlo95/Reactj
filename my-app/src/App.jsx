@@ -8,7 +8,7 @@ export function App() {
       <hr />
       <Message />
       <hr />
-      <Welcome name="Lorenzo" age={29} />
+      <Welcome name="John" age={29} />
     </div>
   );
 }
