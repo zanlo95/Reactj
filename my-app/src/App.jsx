@@ -3,6 +3,7 @@ import { Clock } from "./Clock";
 import { Counter } from "./Counter";
 import { HelloWorld } from "./HelloWorld";
 import { Message } from "./Message";
+import { MouseClicker } from "./MouseClicker";
 import { UseEffect } from "./UseEffect";
 import { Welcome } from "./Welcome";
 export function App() {
@@ -16,6 +17,7 @@ export function App() {
       <AlertClock />
       <Counter />
       <UseEffect />
+      <MouseClicker />
       <Clock />
     </div>
   );
