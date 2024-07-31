@@ -1,11 +1,5 @@
-import { AlertClock } from "./AlertClock";
-import { Clock } from "./Clock";
-import { Counter } from "./Counter";
-import { HelloWorld } from "./HelloWorld";
-import { Message } from "./Message";
-import { MouseClicker } from "./MouseClicker";
-import { UseEffect } from "./UseEffect";
-import { Welcome } from "./Welcome";
+import { MyForm } from "./MyForm";
+
 export function App() {
   return (
     <div>

@@ -1,4 +1,4 @@
-function MyForm() {
+export function MyForm() {
   const [data, setData] = useState({
     username: "",
     password: "",
